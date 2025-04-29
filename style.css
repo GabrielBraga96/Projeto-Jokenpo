@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./img/Joken-pô.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    padding: 40px;
+    margin-top: 130px;
+    background: radial-gradient(#948c75, #d9ceb2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+aside {
+    margin-bottom: 60px;
+    display: flex;
+    gap:40px
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    background-color: #948c75;
+    cursor:pointer;
+    border:none;
+    border-radius: 10px;
+    transition: opacity 0.4s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.6;
+    border: 1px solid #d8b723;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.my-points span {
+    color: #d8b723;
+}
+
+.machine-points span {
+    color: #ecac5b
+}
